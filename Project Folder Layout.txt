@@ -1,0 +1,34 @@
+/Assets
+  /Scripts
+    /Core               → Bootstrapping, GameManager, ServiceLocator
+    /UI                 → UI controllers, views, transitions
+    /Gameplay
+      /Characters       → Player, NPCs, enemies
+      /Systems          → Combat, PowerUps, Score, Levels
+      /StateMachines    → Game flow, character states
+    /Data               → ScriptableObjects, game configs
+    /Services
+      /Audio
+      /Input
+      /SaveLoad
+      /Analytics
+    /Events             → GameEvents, EventBus, custom events
+  /Scenes
+    MainMenu.unity
+    GameScene.unity
+    LoadingScene.unity
+  /Prefabs
+    /UI
+    /Gameplay
+  /ScriptableObjects
+    /Configs
+    /Items
+    /Characters
+  /Art
+    /Sprites
+    /Animations
+  /Audio
+    /SFX
+    /Music
+  /Plugins
+  /Resources
